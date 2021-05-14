@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#header{
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    color: white;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#header .content{
+  
+    z-index: 1;
+    text-align: center;
+    
+}
+#open{
+    font-size: 30px;    
+    position: absolute;
+    left: 3%;
+    top: 40%;
+    cursor: pointer;
+}
+#header .content h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+#singers{
+    padding: 80px 10px 80px 10px;
+}
+#singers h2{
+    background-color: rgba(214, 46, 51 , 0.6);
+    margin-bottom: 0%;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+
+}
+#singers p{
+    background-color: #ccc;
+    margin-bottom: 0%;
+    display: none;
+    padding: 10px;
+    font-size: 14px;
+}
+.sideNav{
+    height: 100vh;
+    width: 16%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #414658;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sideNav a {
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+        color: white;
+    display: block;
+  }
+  
+  .sideNav a:hover {
+    color: rgba(214, 46, 51 , 0.4);
+  }
+  #closeSidenav{
+      position: absolute;
+      right: 3%;
+      font-weight: bolder;
+  }
+  #countDown{
+      position: relative;
+      height: 330px;
+      background-image: url("/img/invitation-2508607__340.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100% ;
+      
+  }
+  .timeContainer{ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      color: white;
+
+      width: 100%;
+      height: 100%;
+      border: 1px white solid;
+  }
+  #remainingChars{
+      color: rgb(214, 46, 51);
+      font-size: 1.1rem;
+  }
+  #contactUs{
+      padding: 150px 0px;
+  }
+  #contactUs h2,h3{
+      font-weight: bolder;
+  }
+  .icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      border: 1px solid #777;
+      width: 40px;
+      height: 40px;
+  }
+  .icon:hover{
+      color: white;
+      cursor: pointer;
+      background-color: rgb(214, 46, 51);
+      border: none;
+  }
